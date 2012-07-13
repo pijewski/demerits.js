@@ -9,4 +9,4 @@ var str = process.argv[2]+ ': demerit';
 for (var ii = 0; ii < parseInt(process.argv[3], 10) - 1; ii++)
 	str = str + '!';
 
-console.log(str);
+process.stdout.write(str);
